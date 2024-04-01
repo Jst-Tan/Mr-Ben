@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: darkblue;
+}
+
+p {
+  font-size:22px;
+  color: darkblue;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f8e356;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: blue;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 20px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: darkgreen;
+  color: yellow;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: left;
+    display: block;
+    text-align: left;
+    padding:12px;
+  }
+  
+  .header-right {
+    float: none;
+    text-align:justify;
+    display: inline-block;
+  }
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+margin-top:0px;
+}
+
+li { 
+text-align: left;  
+margin-left: 10px;
+}
+
+.headers {
+  background-image: linear-gradient(to bottom, #f8e356 , #ff4f8b , #e3b1f6);
+}
+
+@media screen and (max-width: 600px) {
+.image {
+float: none;
+margin-left:auto;
+margin-right:auto;
+width: 100%;
+margin-bottom: 10px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: table;
+  
+p {
+  font-size: 18px;
+}  
+}
+</style>
+</head>
+<body>
+<div class="headers">
+<div class="header">
+  <a href="#default" class="logo">Mr Ben</a>
+  <div class="header-right">
+      <a href="#About" class="active">About</a>
+      <a href="#Video" class="active">Video</a>
+      <a href="#Bibliography" class="active">Bibliography</a>
+      <a href="#Experiences" class="active">Experiences</a>
+      <a href="#Audiobooks" class="active">Audiobooks</a>
+      <a href="#Books" class="active">Books</a>
+      <a href="#Contact" class="active">Contact</a>
+      <a href="#Credits" class="active">Credits</a>
+  </div>
+</div>
+<div style="padding:20px;overflow:auto;background-image: linear-gradient(to bottom, #f8e356 , #ff4f8b , #e3b1f6);">
+<img src="image/headshot.jpeg" style="float:right;height:250px;" class="image">
+<h1 style="text-align:center;font-size: 28px;" id="About">Mr Ben</h1>
+<h3 style="text-align:center;font-size: 28px;">Nigerian Author</h1>
+<p style="text-align:center;font-size: 20px;">Mr Ben is an avid reader and writer, with his personal interests and areas of work include animal care, essential food services, AI, alien life, and human enpowerment.
+<br><br>
+Mr Ben's various works are diverse and captivating and "a more than worthwile read", "challenging and thought provoking", "an incredibly enjoyable listen", "writes with pain, heart and soul".</p>
+<br><br>
+<div style="overflow:auto;">
+<h2 id="Video">Intro Videos</h2>
+<iframe width="500" height="315"
+src="https://www.youtube-nocookie.com/embed/34xKG1J6m38?" float="left"></iframe>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px;">
+  <img src="image/book.png" style="float:left;height:250px;" class="image">
+  <h2 id="Books">Books</h2>
+  <a href="https://www.amazon.com/Thoughts-Season-Mr-Ben/dp/1960038451?crid=258CQ94R9D45G&dib=eyJ2IjoiMSJ9.c_JwFsefrRD6-aRLBSgJvozmvuoRM0-eLL-VSwudVcRdxqslXntbFUPjnvjTIRLfcqE3zZa1PrgWKAbr8sKZwNcxIeFWRslV_fFOwwmMD0CLx-toIzFFye39uGZm5ecAiZzznUn-Ucxa9BwYs1TMW-5k6QkGJRFO0t5FVD_IKo_xFuD0ya7a5ZVCKaBB-3HB.HdRFOUj26CHg23XeZM8tWzsdrqNo1okWYazwLXunBig&dib_tag=se&keywords=thoughts+for+the+season+by+mr+ben&qid=1711892190&sprefix=Thoughts+for+the+Season+by+M%2Caps%2C411&sr=8-1&linkCode=ll1&tag=jsttan-20&linkId=06afb0a0c76cffea36b656772520aae0&language=en_US&ref_=as_li_ss_tl"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Thoughts of the Season</div></a>
+  <a href="https://www.amazon.com/Long-Walk-Destiny-MR-Ben/dp/064521325X?&linkCode=ll1&tag=jsttan-20&linkId=42fb261d902631d0e6641926a1c77d55&language=en_US&ref_=as_li_ss_tl"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Long Walk To Destiny</div></a>
+  <a href="https://www.amazon.com/Twists-Life-Six-Short-Scenes/dp/183530088X?&linkCode=ll1&tag=jsttan-20&linkId=1d569d61d8e7d217d99de05964dedc86&language=en_US&ref_=as_li_ss_tl"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Twists of Life</div></a>
+  <a href="https://www.amazon.com/Talking-Thoughts-Mr-Ben-ebook/dp/B0CR17Y9NT?&linkCode=ll1&tag=jsttan-20&linkId=1105bae27e1a8427374abdd24ece116d&language=en_US&ref_=as_li_ss_tl"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Talking Thoughts</div></a>
+  <a href="https://www.barnesandnoble.com/w/experiences-mr-ben/1138516525"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Experiences</div></a>
+  <a href="https://www.smashwords.com/books/view/1497233"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Come to Think Of It, Sex!</div></a>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px;">
+<img src="image/book-stack.png" style="float:left;height:250px;" class="image">
+<h2 id="Bibliography">Bibliography</h2>
+<div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Broken Mirror: The Nigerian Tale</div></a>
+<div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">A Taste Of Poison</div></a>
+<a href="https://www.amazon.com/Major-Deceptions-Must-Guard-Against-ebook/dp/B0BHLMZ3YM?dib=eyJ2IjoiMSJ9.JQ6EvvMMaKwBPcmtuM2FhA.2-vWrmAdC3s2abVirIf7MAfBRVJMaWqWuhVCWMm9OoA&dib_tag=se&keywords=11+Major+Deceptions+You+Must+Guard+Against&qid=1709230826&sr=8-1&linkCode=ll1&tag=jsttan-20&linkId=391be3c15677bb00a2d08a159914229f&language=en_US&ref_=as_li_ss_tl"><div style="width:160px;height:60px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">11 Major Deceptions You Must Guard Against</div></a>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px;">
+  <img src="image/best-customer-experience.png" style="float:left;height:250px;" class="image">
+  <h2 id="Experiences">Experiences</h2>
+  <div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Rainbowdash</div></a>
+  <div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Wake Up, Dream Boy!</div></a>
+  <a href="https://www.amazon.in/dp/9389984629/ref=mp_s_a_1_1?crid=384J97QTAGA2O&keywords=don%27t+be+stubborn&qid=1684874275&sprefix=%2Caps%2C465&sr=8-1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Don't be Stubborn</div></a>
+  <a href="https://www.amazon.in/dp/9389984637?ref=myi_title_dp"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Kids Love Stories</div></a>
+  <a href="https://www.amazon.in/dp/9389984610?ref=myi_title_dp"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Darn Things Kids Say</div></a>
+  <a href="https://www.amazon.in/dp/9389984645?ref=myi_title_dp"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Meeting Point</div></a>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px;">
+  <img src="image/audiobook.png" style="float:left;height:250px;" class="image">
+  <h2 id="Audiobooks">Audiobooks Title</h2>
+  <div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">What Should We Crave for?</div>
+  <div style="width:170px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The M_L.A.W Link: Man's Contribution To Leaving Dynamis</div>
+  <div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Broken Mirror</div>
+  <div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">A Successful Marriage</div>
+  <div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Christian Matrix</div>
+  <div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">God's Love Towards His People</div>
+  <div style="width:170px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">7 Mistakes Christians Make and The Benediction</div>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px;">
+<img src="image/music.png" style="float:left;height:250px;" class="image">
+<h2>Audio Drama</h2>
+<div class="group" style="overflow:auto;">
+<a href="https://www.youtube.com/watch?v=ecWI5TyiXZs"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">A Taste of Poison</div></a>
+
+<a href="https://www.youtube.com/watch?v=Jaqq5QYGZXU&t=181s"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Conflict</div></a>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px">
+<img src="image/documents.png" style="float:left;height:250px;" class="image">
+<h2 id="Reviews">Reviews</h2>
+<div class="group" style="overflow:auto;">
+<a href="https://writingbyalexandyphuong.blogspot.com/2021/05/the-original-conflict-review-of.html?m=1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Original Conflict</div></a>
+
+<a href="https://writingbyalexandyphuong.blogspot.com/2021/05/the-conflict-review-of-audio-drama-by.html?m=1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Conflict</div></a>
+
+<a href="https://writingbyalexandyphuong.blogspot.com/2021/05/a-taste-of-poison-review-of-short.html?m=1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">A Taste of Poison (Short Script)</div></a>
+
+<a href="https://writingbyalexandyphuong.blogspot.com/2021/05/life-undeniably-real-collection-of.html?m=1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Life - Undeniably Real</div></a>
+
+<a href="https://writingbyalexandyphuong.blogspot.com/2021/04/a-taste-of-poison-review-of-audio-drama.html?m=1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">A Taste of Poison (Audio Drama)</div></a>
+
+<a href="https://writingbyalexandyphuong.blogspot.com/2021/01/more-than-religious-film-review-of.html?m=1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Christian Matrix</div></a>
+
+<a href="https://writingbyalexandyphuong.blogspot.com/2021/01/situations-review-of-nonfiction.html?m=1"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Situations'</div></a>
+</div>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px;">
+<img src="image/upcoming.png" style="float:left;height:250px;" class="image">
+<h2>Upcoming Works</h2>  
+<div class="group" style="overflow:auto;">
+<div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Life in Space: The Parallel Earth Story</div>
+<div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Blueprint</div>
+<div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Conflict</div>
+<div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Conflict</div>
+<div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">The Conflict</div>
+</div>
+<br><br><br>
+<div style="overflow:auto;padding-bottom:10px;">
+  <img src="image/contacts.png" style="float:left;height:250px;" class="image">
+  <h2 id="Contact">Contact Me</h2>
+  <a href="mailto:mrbenisreal@gmail.com"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Email</div></a>
+  <a href="tel:+2348062162220"><div style="width:120px;height:40px;justify-content:center;border-style:solid;padding: 70px 0;text-align:center;background-color:yellow;color:blue;margin:20px;float:left;font-weight:bold;">Phone Number</div></a>
+</div>
+
+<h3 style="padding-top:50px;">&copy; Jst Tan 2024. All Rights Reserved</h3>
+
+</div>
+</div>
+  </body>
+</html>
